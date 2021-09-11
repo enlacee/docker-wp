@@ -1,4 +1,4 @@
-# WP-EXAMPLE
+# Docker-Wp
 
 Wordpress Dockerizing
 
@@ -11,7 +11,7 @@ Wordpress Dockerizing
 	docker-compose up -d
 	docker-compose down # turn-off all containers
 
-Now create a File named `wordpress_data/env_FILE` and set all ariables.  
+Now create a File named `wordpress_data/env_FILE` and set all variables.  
 This variables are setting in `docker-compose.yml`
 
 	WORDPRESS_DB_NAME=wordpress
