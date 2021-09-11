@@ -22,5 +22,5 @@ This variables are setting in `docker-compose.yml`
 
 ## App online
 
-Server wordpress: `http://localhost:8000`
-Database manager: `http://localhost:8080`
+Server wordpress: `http://localhost:8000`  
+Database manager: `http://localhost:8080`  
