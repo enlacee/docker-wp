@@ -1,15 +1,15 @@
 # WP-EXAMPLE
-Wordpress dockerization
 
-* mysql
-* wordpress
-* adminer (database admin)
+Wordpress Dockerizing
+
+* [Mysql](https://www.mysql.com/)
+* [Wordpress](https://wordpress.org/download/)
+* [Adminer](https://www.adminer.org/)
 
 ## Command help
 
 	docker-compose up -d
-	# off container
-	docker-compose down
+	docker-compose down # turn-off all containers
 
 Now create a File named `wordpress_data/env_FILE` and set all ariables.  
 This variables are setting in `docker-compose.yml`
@@ -21,4 +21,6 @@ This variables are setting in `docker-compose.yml`
 	WORDPRESS_DEBUG=true
 
 ## App online
-live in `localhost:8000`
+
+Server wordpress: `http://localhost:8000`
+Database manager: `http://localhost:8080`
